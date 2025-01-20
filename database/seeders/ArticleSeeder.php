@@ -27,6 +27,6 @@ class ArticleSeeder extends Seeder
             ]
             ];
 
-            db::table("articles")->insert($param);
+            DB::table("articles")->insert($param);
     }
 }
